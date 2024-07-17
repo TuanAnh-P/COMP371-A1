@@ -1,7 +1,3 @@
-//
-// Created by Tuan Anh Pham on 2024-07-10.
-//
-
 #ifndef MYARRAY_H
 #define MYARRAY_H
 

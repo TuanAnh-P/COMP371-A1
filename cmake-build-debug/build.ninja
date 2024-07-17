@@ -73,6 +73,18 @@ build CMakeFiles/A1.dir/Triangle.cpp.o: CXX_COMPILER__A1_unscanned_Debug /Users/
   OBJECT_DIR = CMakeFiles/A1.dir
   OBJECT_FILE_DIR = CMakeFiles/A1.dir
 
+build CMakeFiles/A1.dir/Part1Driver.cpp.o: CXX_COMPILER__A1_unscanned_Debug /Users/tuananhpham/CLionProjects/A1/Part1Driver.cpp || cmake_object_order_depends_target_A1
+  DEP_FILE = CMakeFiles/A1.dir/Part1Driver.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/A1.dir
+  OBJECT_FILE_DIR = CMakeFiles/A1.dir
+
+build CMakeFiles/A1.dir/Part2Driver.cpp.o: CXX_COMPILER__A1_unscanned_Debug /Users/tuananhpham/CLionProjects/A1/Part2Driver.cpp || cmake_object_order_depends_target_A1
+  DEP_FILE = CMakeFiles/A1.dir/Part2Driver.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/A1.dir
+  OBJECT_FILE_DIR = CMakeFiles/A1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target A1
@@ -81,7 +93,7 @@ build CMakeFiles/A1.dir/Triangle.cpp.o: CXX_COMPILER__A1_unscanned_Debug /Users/
 #############################################
 # Link the executable A1
 
-build A1: CXX_EXECUTABLE_LINKER__A1_Debug CMakeFiles/A1.dir/main.cpp.o CMakeFiles/A1.dir/Point.cpp.o CMakeFiles/A1.dir/MyArray.cpp.o CMakeFiles/A1.dir/Triangle.cpp.o
+build A1: CXX_EXECUTABLE_LINKER__A1_Debug CMakeFiles/A1.dir/main.cpp.o CMakeFiles/A1.dir/Point.cpp.o CMakeFiles/A1.dir/MyArray.cpp.o CMakeFiles/A1.dir/Triangle.cpp.o CMakeFiles/A1.dir/Part1Driver.cpp.o CMakeFiles/A1.dir/Part2Driver.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/A1.dir
   POST_BUILD = :

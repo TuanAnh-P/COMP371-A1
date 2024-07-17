@@ -9,4 +9,6 @@ add_executable(A1 main.cpp
         MyArray.cpp
         MyArray.h
         Triangle.cpp
-        Triangle.h)
+        Triangle.h
+        Part1Driver.cpp
+        Part2Driver.cpp)

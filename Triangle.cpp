@@ -4,19 +4,16 @@
 
 // Default constructor initializes the 3 vertices to (0, 0, 0)
 Triangle::Triangle() : vertex_1(new Point(0, 0, 0)), vertex_2(new Point(0, 0, 0)), vertex_3(new Point(0, 0, 0)) {
-    // Dynamically allocate memory for vertex_1, vertex_2, and vertex_3 and initialize them to (0, 0, 0)
 }
 
 // Parameterized constructor sets the 3 vertices to provided values
 Triangle::Triangle(const Point& vertex1, const Point& vertex2, const Point& vertex3)
         : vertex_1(new Point(vertex1)), vertex_2(new Point(vertex2)), vertex_3(new Point(vertex3)) {
-    // Dynamically allocate memory for vertex_1, vertex_2, and vertex_3 and initialize them to vertex1, vertex2, and vertex3 respectively
 }
 
 // Copy constructor
 Triangle::Triangle(const Triangle& other)
         : vertex_1(new Point(*other.vertex_1)), vertex_2(new Point(*other.vertex_2)), vertex_3(new Point(*other.vertex_3)) {
-    // Allocate new memory for vertex_1, vertex_2, and vertex_3 and copy the values from the other Triangle object
 }
 
 // Assignment operator
@@ -83,11 +80,11 @@ double Triangle::calcArea() const {
     return 0.5 * crossMagnitude;
 }
 
-// Stream insertion operator for easy output of Triangle object
+// Stream insertion operator for a more readable output of Triangle object
 std::ostream& operator<<(std::ostream& os, const Triangle& triangle) {
     // Output the positions of the triangle's vertices
     os << "Triangle 1st vertex: " << *triangle.vertex_1;
     os << "Triangle 2nd vertex: " << *triangle.vertex_2;
     os << "Triangle 3rd vertex: " << *triangle.vertex_3;
-    return os; // Return the stream object to allow for chaining
+    return os;
 }

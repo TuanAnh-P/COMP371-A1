@@ -3,7 +3,6 @@
 
 #include "Point.h"
 #include <iostream>
-#include <cmath>
 
 class Triangle {
 public:
