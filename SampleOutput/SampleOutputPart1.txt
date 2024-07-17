@@ -1,0 +1,17 @@
+Enter the size of the array: 10
+Creating an array with size 10
+Initializing array values ranging from 0 to size-1
+Printing the array values
+The value at index 0 is 0
+The value at index 1 is 1
+The value at index 2 is 2
+The value at index 3 is 3
+The value at index 4 is 4
+The value at index 5 is 5
+The value at index 6 is 6
+The value at index 7 is 7
+The value at index 8 is 8
+The value at index 9 is 9
+Deallocating the array from the memory
+
+Process finished with exit code 0

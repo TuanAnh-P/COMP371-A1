@@ -1,0 +1,54 @@
+Menu Options:
+-------------------------------
+Create Triangle
+Translate Triangle
+Display Triangle Coordinates
+Calculate Triangle Area
+Quit
+-------------------------------
+Enter your choice: 1
+Enter coordinates for Point 1 (x y z): 0 0 0
+Enter coordinates for Point 2 (x y z): 5 0 0
+Enter coordinates for Point 3 (x y z): 0 5 0
+Triangle created:
+Triangle 1st vertex: Position : (0, 0, 0)
+Triangle 2nd vertex: Position : (5, 0, 0)
+Triangle 3rd vertex: Position : (0, 5, 0)
+
+Menu Options:
+-------------------------------
+Create Triangle
+Translate Triangle
+Display Triangle Coordinates
+Calculate Triangle Area
+Quit
+-------------------------------
+Enter your choice: 3
+Triangle coordinates:
+Triangle 1st vertex: Position : (0, 0, 0)
+Triangle 2nd vertex: Position : (5, 0, 0)
+Triangle 3rd vertex: Position : (0, 5, 0)
+
+Menu Options:
+-------------------------------
+Create Triangle
+Translate Triangle
+Display Triangle Coordinates
+Calculate Triangle Area
+Quit
+-------------------------------
+Enter your choice: 4
+Triangle's area: 12.5
+
+Menu Options:
+-------------------------------
+Create Triangle
+Translate Triangle
+Display Triangle Coordinates
+Calculate Triangle Area
+Quit
+-------------------------------
+Enter your choice: 5
+Exiting program.
+
+Process finished with exit code 0
